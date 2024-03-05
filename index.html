@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Predictor</title>
+    <style>
+        h1 {
+            text-align: center;
+            margin-top: 200px;
+        }
+        p {
+            text-align: center;
+        }
+        form {
+            text-align: center;
+        }
+        body {
+            background-color: azure;
+        }
+        #footer {
+            margin-top: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sum Predictor</h1>
+    <p>This is a Machine Learning Model that will give you the sum of two numbers</p>
+
+    <form action="/predict" method="POST">
+        <label for="num1">Number 1:</label>
+        <input type="number" name="num1" id="num1">
+        <label for="num2">Number 2:</label>
+        <input type="number" name="num2" id="num2">
+        <br><br>
+        <input type="submit" value="Add" id="button">
+    </form>
+    
+    <footer>
+        <p id="footer">Created By Pradeep</p>
+    </footer>
+</body>
+</html>

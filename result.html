@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Predictor Result</title>
+    <style>
+        h1 {
+            text-align: center;
+            margin-top: 100px;
+        }
+        body {
+            background-color: azure;
+        }
+        #result{
+            padding-top: 50px;
+            text-align: center;
+            font-size: 50px;
+        }
+        #footer_p{
+            text-align: center;
+            margin-top: 350px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p id="result">The sum of the two numbers is: {{ prediction }}</p>
+    <footer>
+        <p id="footer_p">This will not give accurate answer since it is a ML model</p>
+    </footer>
+</body>
+</html>
